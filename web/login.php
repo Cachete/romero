@@ -28,7 +28,7 @@
                         return true;
                    }
                    else {
-                        alert("Ingrese el usuario.");
+                        alert("Ingrese el usuario");
                         return false;
                         }
                  }
