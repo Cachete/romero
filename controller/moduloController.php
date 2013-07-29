@@ -66,20 +66,16 @@ class ModuloController extends Controller
     }
     public function save()
     {
-
         $obj = new Modulo();
-
-        $result = array();
-        
+        $result = array();        
         if ($_POST['idmodulo']=='') 
         {
-            $p = $obj->insert($_POST);
-            
-                if ($p['res']=='1')                
-                    $result = array(1,'',$p['ide'],$p['ce']);                
-                else                 
-                    $result = array(2,$p['msg'],'');
-                print_r(json_encode($result));           
+            $p = $obj->insert($_POST);            
+            if ($p['res']=='1')                
+                $result = array(1,'',$p['ide'],$p['ce']);                
+            else                 
+                $result = array(2,$p['msg'],'');
+            print_r(json_encode($result));           
         }
         else 
         {

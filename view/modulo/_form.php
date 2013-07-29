@@ -1,8 +1,6 @@
 <?php  include("../lib/helpers.php"); 
        include("../view/header_form.php");
 ?>
-<script type="text/javascript" src="js/app/evt_form_modulo.js" ></script>
-<script type="text/javascript" src="js/validateradiobutton.js"></script>
 <form id="frm" >
                 <input type="hidden" name="controller" value="Modulo" />
                 <input type="hidden" name="action" value="save" />             

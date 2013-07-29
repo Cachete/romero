@@ -29,7 +29,8 @@ $(document).ready(function()
     $("#box-frm").dialog({
       modal:true,
       autoOpen:false,
-      width:800,
+      width:'auto',
+      height:'auto',
       resizing:true,
       title:'Formulario de <?php echo $controlador; ?>',
       buttons: {'Cerrar':function(){$(this).dialog('close');},
