@@ -1,0 +1,26 @@
+/* 
+    Document   : style_inputs
+    Created on : 07/09/2012, 12:27:03 PM
+    Author     : Andrezinho
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+label { display: inline-block; font-size: 13px; }
+.labels { width: 100px; text-align: right; margin-right: 2px;color:#333;}
+.text {  padding: .15em;margin-top: 3px;margin-bottom: 3px; width:100px; } 
+table{   font-size: 11px !important;display: table; }
+fieldset { padding: 10px 0 10px; border:1px solid #dadada; margin-bottom: 5px;}
+legend { margin-left: 10px; padding: 2px; }
+.contain, .contain2 { margin: 0px auto;  background: #FFFFFF; width:85%; padding: 2px; }
+.contain table tbody tr, .contain2 table tbody tr {cursor: pointer;background-color: #ffffff}
+.contain table, .contain2 table { margin: 0 0; border-collapse: collapse; width: 100%;  }
+.contain table td, .contain2 table td, .contain table th,.contain2 table th  { border: 1px solid #dadada;height: 20px; padding: 2px 0 3px 2px; }
+.contain table thead tr.tr-head, .contain2 table thead tr.tr-head { height: 28px !important; }
+.option-op { border: 1px solid transparent;  margin: 0 auto;  width: 99.3%; background: #fafafa; padding: 1px 2px 2px 0px; clear: both }
+.contain, .contain2 #tgrid { border-top:1px solid #dadada;}
+.contain2 { float: left; width: 80%; 
+			box-sizing:border-box; 
+			-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    	}
